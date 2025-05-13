@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Desserts</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ffcc00;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #fff;
+        }
+
+        .desserts {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .dessert {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+
+        .dessert img {
+            width: 100%;
+            border-radius: 8px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .dessert h3 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+            color: #ff6600;
+        }
+
+        .dessert p {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Delicious Desserts!</h1>
+        <p>Indulge in the most delicious treats!</p>
+    </header>
+
+    <section class="desserts">
+        <div class="dessert">
+            <img src="dessert1.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>A rich and decadent chocolate cake topped with whipped cream.</p>
+        </div>
+
+        <div class="dessert">
+            <img src="dessert2.jpg" alt="Strawberry Cheesecake">
+            <h3>Strawberry Cheesecake</h3>
+            <p>A creamy cheesecake with fresh strawberries on top.</p>
+        </div>
+
+        <div class="dessert">
+            <img src="dessert3.jpg" alt="Lemon Tart">
+            <h3>Lemon Tart</h3>
+            <p>A tangy lemon tart with a crispy buttery crust.</p>
+        </div>
+    </section>
+</body>
+</html>
